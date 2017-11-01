@@ -3,7 +3,7 @@
 #include "Board_LED.h"
 #include "MKW41Z4.h"                    // Device header
 
-
+// Flashes LED 3 forever
 void toggleLed3(void* arg)
 {
 	while(1)
@@ -15,6 +15,7 @@ void toggleLed3(void* arg)
 	}
 }
 
+// Flashes LED 2 forever
 void toggleLed2(void* arg)
 {
 	while(1)
@@ -26,6 +27,7 @@ void toggleLed2(void* arg)
 	}
 }
 
+// Flashes LED 1 forever
 void toggleLed1(void* argid)
 {
 	while(1)
@@ -37,6 +39,7 @@ void toggleLed1(void* argid)
 	}
 }
 
+// Flashes LED 0 forever
 void toggleLed0(void* arg)
 {
 	while(1)
